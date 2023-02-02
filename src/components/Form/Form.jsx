@@ -65,7 +65,7 @@ function Form() {
             </div>
             <div className='terms-container'>
             <input className='checkbox' type="checkbox" id='terms'
-            onChange={(event) => {bookingsDetail.acceptedTerms = event.target.value}}/> 
+            onChange={(event) => {bookingsDetail.acceptedTerms = event.target.checked}}/> 
             <label htmlFor="terms">Godkänner villkoren</label>
             </div>
             <button className='booking-button'
