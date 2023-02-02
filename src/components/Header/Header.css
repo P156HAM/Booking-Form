@@ -1,0 +1,52 @@
+.h1-container {
+    width: 341px;
+    height: 60px;
+    background-color: #CECECE;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.header-text {
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30.94px;
+    text-align: center;
+    margin: 0;
+}
+
+.header-distination {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.first-city {
+    background-color: #E2E2E2;
+    width: 170px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+}
+
+.second-city {
+    background-color: #ECECEC;
+    width: 170px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+}
+
+.header-arrow {
+    background: none;
+    position: absolute;
+    top: 218px;
+    z-index: 1;
+    font-size: 30px;
+}
